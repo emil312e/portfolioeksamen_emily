@@ -1,0 +1,427 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/*mobil*/
+@media (max-width: 650px) {
+
+    /*
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+    #content-wrap {
+        padding-bottom: 1rem;
+         Footer height
+    }
+*/
+    header {
+        background-color: #F4C425;
+
+    }
+
+    header {
+        display: block;
+
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+
+
+    }
+
+    .toggle {
+        display: none;
+    }
+
+
+    #knap {
+        grid-column-start: 3;
+        margin-top: 0;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+
+    nav a {
+        line-height: 0.2rem;
+        display: block;
+        padding: 30px;
+        padding-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+    .overskrift h1 {
+        padding-top: 15px;
+        padding-left: 20px;
+        float: left;
+        display: inline-flex;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    h1:hover {
+        color: #ED5242;
+    }
+
+
+    #knap:hover {
+        color: #ED5242;
+    }
+
+
+
+    /*footer*/
+
+
+    footer {
+        position: absolute;
+
+    }
+
+    footer {
+        width: 100vw;
+        background-color: #F4C425;
+        text-align: left;
+        padding: .50rem;
+        height: 25vw;
+
+    }
+
+
+
+
+    footer h2 {
+        font-size: 17px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    footer h3 {
+        font-size: 17px;
+        margin-left: 1rem;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    footer h4 {
+        font-size: 17px;
+        margin-top: -3.4rem;
+        float: right;
+        margin-right: 1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+
+    }
+
+    .facebook h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: 2.4rem;
+        margin-top: -1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+        color: #ED5242;
+    }
+
+    .instagram h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: -2.5rem;
+        margin-top: -0.2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+        color: #ED5242;
+    }
+
+    #overskrift h2 {
+        text-align: center;
+        padding-top: 60px;
+        font-size: 2.5rem;
+        padding-left: 2px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+
+
+
+    #assetliste h2 {
+        text-align: center;
+        padding-top: 40px;
+        font-size: 2.5rem;
+        padding-left: 2px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+
+    #tekst p {
+        text-align: left;
+        padding-top: 30px;
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black
+    }
+
+    #designdokumentation h2 {
+        text-align: center;
+        padding-top: 25px;
+        font-size: 2.3rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+
+
+
+    #link_dokumentation p {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 1.8rem;
+        padding-left: 2px;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 40px;
+    }
+
+    #link_assetliste p {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 1.8rem;
+        padding-left: 2px;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 30px;
+    }
+
+    #spil h2 {
+        text-align: center;
+        padding-top: 25px;
+        font-size: 2.3rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+}
+
+
+
+/*billeder*/
+
+#figurdesign img {
+    width: 90%;
+    height: 10%;
+    padding-top: 30px;
+    margin-left: 22px;
+
+
+}
+
+
+
+
+
+
+/*desktop*/
+@media (min-width: 650px) {
+
+    header {
+        background-color: #F4C425;
+
+    }
+
+    header {
+        display: block;
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+        padding-top: 40px;
+
+    }
+
+    .overskrift h1 {
+        padding-top: 60px;
+        padding-left: 20px;
+        float: left;
+        display: inline-flex;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+
+
+
+    nav {
+        display: block;
+        text-align: right;
+        margin-right: 30px;
+
+
+    }
+
+    nav a {
+        display: inline-flex;
+        padding: 15px;
+        padding-top: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        font-family: 'Bebas Neue', cursive;
+
+
+    }
+
+    p {
+        display: none;
+    }
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    h1:hover {
+        color: #ED5242;
+    }
+
+    #knap:hover {
+        color: #ED5242;
+    }
+
+    /*footer*/
+    footer p {
+        line-height: 1;
+    }
+
+
+
+    footer {
+        width: 100vw;
+        background-color: #F4C425;
+        color: black;
+        text-align: left;
+        padding: .40rem;
+        height: 10vw;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    footer h3 {
+        font-size: 20px;
+        margin-left: 2rem;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    footer h4 {
+        font-size: 20px;
+        margin-top: -3.9rem;
+        float: right;
+        margin-right: 1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+
+    }
+
+    .facebook h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: 3rem;
+        margin-top: -2.1rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
+    }
+
+    .instagram h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: -2.4rem;
+        margin-top: -0.2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
+    }
+
+
+
+
+    /*billeder*/
+
+    #figurdesign img {
+        width: 5%;
+        height: 10%;
+        padding-top: 150px;
+        float: left;
+        margin-left: 200px;
+
+
+    }
+
+
+}

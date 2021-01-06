@@ -1,0 +1,500 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/*mobil*/
+@media (max-width: 650px) {
+
+    /*
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+    #content-wrap {
+        padding-bottom: 1rem;
+         Footer height
+    }
+*/
+    header {
+        background-color: #F4C425;
+
+    }
+
+    header {
+        display: block;
+
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+
+
+    }
+
+    .toggle {
+        display: none;
+    }
+
+
+    #knap {
+        grid-column-start: 3;
+        margin-top: 0;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+
+    nav a {
+        line-height: 0.2rem;
+        display: block;
+        padding: 30px;
+        padding-top: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+    .overskrift h1 {
+        padding-top: 15px;
+        padding-left: 20px;
+        float: left;
+        display: inline-flex;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+
+    }
+
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    h1:hover {
+        color: #ED5242;
+    }
+
+
+    #knap:hover {
+        color: #ED5242;
+    }
+
+
+
+    /*footer*/
+
+
+    footer {
+        position: absolute;
+
+    }
+
+    footer {
+        width: 100vw;
+        background-color: #F4C425;
+        text-align: left;
+        padding: .50rem;
+        height: 25vw;
+
+    }
+
+
+
+
+    footer h2 {
+        font-size: 17px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    footer h3 {
+        font-size: 17px;
+        margin-left: 1rem;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    footer h4 {
+        font-size: 17px;
+        margin-top: -3.4rem;
+        float: right;
+        margin-right: 1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+
+    }
+
+    .facebook h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: 2.4rem;
+        margin-top: -1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+        color: #ED5242;
+    }
+
+    .instagram h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: -2.5rem;
+        margin-top: -0.2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 18px;
+        color: #ED5242;
+    }
+
+    #kontakt h2 {
+        padding-top: 60px;
+        font-size: 3.4rem;
+        padding-left: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    #email h3 {
+        position: absolute;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #email2 h3 {
+        text-align: left;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #mobil h3 {
+        position: absolute;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #mobil2 h3 {
+        text-align: left;
+        padding-bottom: 90px;
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #email_emily h3 {
+        margin-top: -5.1rem;
+        padding-bottom: 30px;
+        text-align: right;
+        padding-left: 5px;
+        font-size: 1.7rem;
+        margin-right: 3.2rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+
+    }
+
+    #mobil_tekst h3 {
+        margin-top: -7.3rem;
+        padding-bottom: 30px;
+        text-align: right;
+        font-size: 1.7rem;
+        margin-right: 3.4rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+
+    }
+
+}
+
+
+
+/*billeder*/
+
+#kontakt img {
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 5px;
+
+}
+
+/*desktop*/
+@media (min-width: 650px) {
+
+    header {
+        background-color: #F4C425;
+
+    }
+
+    header {
+        display: block;
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+        padding-top: 40px;
+
+    }
+
+    .overskrift h1 {
+        padding-top: 60px;
+        padding-left: 20px;
+        float: left;
+        display: inline-flex;
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+
+
+
+
+    nav {
+        display: block;
+        text-align: right;
+        margin-right: 30px;
+
+
+    }
+
+    nav a {
+        display: inline-flex;
+        padding: 15px;
+        padding-top: 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        font-family: 'Bebas Neue', cursive;
+
+
+    }
+
+    p {
+        display: none;
+    }
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    h1:hover {
+        color: #ED5242;
+    }
+
+    #knap:hover {
+        color: #ED5242;
+    }
+
+    /*footer*/
+    footer p {
+        line-height: 1;
+    }
+
+
+
+    footer {
+        width: 100vw;
+        background-color: #F4C425;
+        color: black;
+        text-align: left;
+        padding: .40rem;
+        height: 10vw;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    footer h3 {
+        font-size: 20px;
+        margin-left: 2rem;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    footer h4 {
+        font-size: 20px;
+        margin-top: -3.9rem;
+        float: right;
+        margin-right: 1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+
+    }
+
+    .facebook h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: 3rem;
+        margin-top: -2.1rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
+    }
+
+    .instagram h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: -2.4rem;
+        margin-top: -0.2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
+    }
+
+    #kontakt h2 {
+        position: absolute;
+        padding-top: 70px;
+        font-size: 3.4rem;
+        padding-left: 25px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+
+
+    #kontakt img {
+        width: 400px;
+        padding-left: 150px;
+        padding-top: 100px;
+
+    }
+
+    #email h3 {
+        position: absolute;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 63rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #email2 h3 {
+        text-align: left;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 60rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #mobil h3 {
+        position: absolute;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        margin-left: 63rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #mobil2 h3 {
+        text-align: left;
+        padding-bottom: 90px;
+        font-size: 2rem;
+        margin-left: 60rem;
+        margin-right: 1rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    #email_emily h3 {
+        margin-top: -5.1rem;
+        padding-bottom: 30px;
+        text-align: right;
+        padding-left: 5px;
+        font-size: 1.7rem;
+        margin-right: 3.2rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+
+    }
+
+    #mobil_tekst h3 {
+        margin-top: -7.3rem;
+        padding-bottom: 30px;
+        text-align: right;
+        font-size: 1.7rem;
+        margin-right: 3.4rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+
+    }
+}
