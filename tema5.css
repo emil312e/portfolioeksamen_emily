@@ -94,7 +94,6 @@ body {
         text-decoration: none;
         color: white;
         font-family: 'Bebas Neue', cursive;
-
     }
 
 
@@ -192,14 +191,14 @@ body {
 
 
 
-    #tekst p {
+    #tekst h3 {
         text-align: left;
         padding-top: 30px;
         font-size: 1.2rem;
-        margin-left: 2.5rem;
+        margin-left: 1.5rem;
         margin-right: 1rem;
         font-family: 'Darker Grotesque', sans-serif;
-        color: black
+        color: white;
     }
 
     #pilotprojekt h2 {
@@ -213,7 +212,7 @@ body {
 
 
 
-    #link_pilotprojekt p {
+    #link_pilotprojekt h3 {
         text-align: center;
         padding-top: 5px;
         font-size: 1.8rem;
@@ -232,7 +231,7 @@ body {
     }
 
 
-    #link_galleri p {
+    #link_galleri h3 {
         text-align: center;
         padding-top: 5px;
         font-size: 1.8rem;
@@ -259,7 +258,7 @@ body {
         color: #ED5242;
     }
 
-    #link_redesign p {
+    #link_redesign h3 {
         text-align: center;
         padding-top: 5px;
         font-size: 2.5rem;
@@ -277,7 +276,7 @@ body {
         color: #ED5242;
     }
 
-    #link_temadokumentation p {
+    #link_temadokumentation h3 {
         text-align: center;
         padding-top: 5px;
         font-size: 2.5rem;
@@ -322,18 +321,20 @@ body {
 }
 
 
-#moodbo img {
-    width: 90%;
-    height: 10%;
-    padding-top: 10px;
-    margin-left: 20px;
-}
 
 #styletile img {
     width: 90%;
     height: 10%;
     padding-top: 10px;
     margin-left: 20px;
+}
+
+.grey_box2 {
+    background-color: #D0D0D0;
+    height: 450px;
+    min-width: 200px;
+    margin-top: -27rem;
+
 }
 
 /*desktop*/
@@ -472,48 +473,149 @@ body {
         color: #ED5242;
     }
 
-    /*welcome tekst*/
-
-    .welcome h2 {
-        position: absolute;
-        padding-top: 60px;
-        font-size: 5rem;
-        padding-left: 55px;
+    #overskrift h2 {
+        text-align: left;
+        padding-top: 70px;
+        margin-left: 2rem;
+        font-size: 3.5rem;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
     }
 
-    .welcome h3 {
-        position: absolute;
-        padding-top: 108px;
-        font-size: 5rem;
-        padding-left: 165px;
+    #tekst h3 {
+        text-align: left;
+        padding-top: 30px;
+        font-size: 1.2rem;
+        margin-left: 2.5rem;
+        margin-right: 47rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black
+    }
+
+    #pilotprojekt h2 {
+        text-align: right;
+        margin-top: -38rem;
+        margin-right: 15rem;
+        font-size: 3.5rem;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
+    }
 
+    #link_pilotprojekt h3 {
+        text-align: right;
+        padding-top: 17px;
+        font-size: 2.5rem;
+        margin-right: 13.5rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 30px;
+    }
+
+    #redesign h2 {
+        text-align: left;
+        margin-top: 9rem;
+        margin-left: 2.3rem;
+        font-size: 3.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    #galleri h2 {
+        text-align: right;
+        padding-top: 20px;
+        margin-right: 22rem;
+        font-size: 3.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+
+    #link_galleri h3 {
+        text-align: right;
+        padding-top: 5px;
+        font-size: 2.5rem;
+        margin-right: 18.9rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 30px;
     }
 
     /*grå box*/
 
-    #grey_box {
+    .grey_box2 {
         background-color: #D0D0D0;
-        height: 150px;
+        height: 170px;
         min-width: 200px;
-        margin-top: 3rem;
+        margin-top: 5rem;
 
     }
 
     /*billeder*/
 
-    #figurdesign img {
-        width: 5%;
-        height: 10%;
-        padding-top: 150px;
-        float: left;
-        margin-left: 200px;
-
-
+    #stormfysik img {
+        width: 50%;
+        margin-left: 2.4rem;
+        padding-top: 100px;
     }
 
+    #logo img {
+        width: 40%;
+        height: 10%;
+        margin-top: -30rem;
+        margin-left: 50rem;
+    }
+
+    #moodboard img {
+        width: 40%;
+        height: 10%;
+        padding-top: 50px;
+        margin-left: 2.5rem;
+        padding-bottom: 30px;
+    }
+
+    #styletile img {
+        width: 40%;
+        height: 10%;
+        margin-top: -40rem;
+        margin-left: 50rem;
+    }
+
+    #link_redesign h2 {
+        text-align: left;
+        padding-top: 40px;
+        font-size: 3.5rem;
+        margin-left: 2.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    #link_redesign h3 {
+        text-align: left;
+        margin-top: -3rem;
+        font-size: 3rem;
+        margin-left: 22rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 10px;
+    }
+
+    #temadokumentation h2 {
+        text-align: left;
+        padding-top: 30px;
+        font-size: 3.5rem;
+        margin-left: 2.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    #link_temadokumentation h3 {
+        text-align: left;
+        margin-top: -3rem;
+        font-size: 3rem;
+        margin-left: 24rem;
+        font-family: 'Darker Grotesque', sans-serif;
+        color: black;
+        padding-bottom: 50px;
+    }
 
 }
