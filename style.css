@@ -149,15 +149,20 @@ body {
         color: white;
     }
 
+
+
+
+
     footer h4 {
         font-size: 17px;
         margin-top: -3.4rem;
         float: right;
-        margin-right: 1.8rem;
+        margin-right: 1rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
 
     }
+
 
     .facebook h1 {
         width: 2.9rem;
@@ -185,7 +190,7 @@ body {
 
     .welcome h2 {
         position: absolute;
-        padding-top: 100px;
+        padding-top: 145px;
         font-size: 3rem;
         padding-left: 20px;
         font-family: 'Bebas Neue', cursive;
@@ -194,7 +199,7 @@ body {
 
     .welcome h3 {
         position: absolute;
-        padding-top: 125px;
+        padding-top: 170px;
         font-size: 3rem;
         padding-left: 40px;
         font-family: 'Bebas Neue', cursive;
@@ -206,22 +211,24 @@ body {
     .greta img {
         width: 75%;
         height: 10%;
-        padding-top: 40px;
+        padding-top: 90px;
         padding-left: 60px;
     }
+
+
 
     .kvinde img {
         position: relative;
         width: 50%;
-        padding-top: 28px;
-        padding-left: 173px;
+        padding-left: 156px;
+        margin-top: 2rem;
 
     }
 
     .cykler img {
         width: 60%;
         padding-top: 2rem;
-        padding-left: 128px;
+        padding-left: 118px;
         padding-bottom: 10px;
 
 

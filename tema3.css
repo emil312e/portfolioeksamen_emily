@@ -205,7 +205,8 @@ body {
 
     #tekst h3 {
         text-align: left;
-        margin-top: -16.5rem;
+        position: absolute;
+        margin-top: -17.5rem;
         font-size: 1.2rem;
         margin-left: 2rem;
         margin-right: 1rem;
@@ -375,8 +376,14 @@ body {
     height: 300px;
     min-width: 200px;
     margin-top: 3rem;
-
+    opacity: 0.9;
 }
+
+#grey_box:hover {
+    opacity: 0.5;
+}
+
+
 
 /*desktop*/
 @media (min-width: 650px) {
@@ -537,9 +544,8 @@ body {
         background-color: #D0D0D0;
         height: 1000px;
         min-width: 200px;
-        margin-top: -174rem;
-        padding-bottom: 1700px;
-
+        margin-top: -81rem;
+        padding-bottom: 290px;
     }
 
     #overskrift h2 {
@@ -552,6 +558,7 @@ body {
 
     #tekst h3 {
         text-align: left;
+        position: absolute;
         margin-top: -17rem;
         font-size: 2rem;
         margin-left: 4rem;
@@ -649,7 +656,7 @@ body {
     #ide4 img {
         width: 40%;
         margin-left: 48rem;
-        margin-top: -20.5rem;
+        margin-top: -22rem;
 
     }
 
@@ -662,7 +669,7 @@ body {
     #ide6 img {
         width: 40%;
         margin-left: 48rem;
-        margin-top: -29rem;
+        margin-top: -30.5rem;
 
     }
 
@@ -683,8 +690,10 @@ body {
     }
 
     #pitch1 img {
-        width: 40%;
-        margin-top: 2rem;
+        position: absolute;
+        width: 600px;
+        height: 323px;
+        margin-top: -25.6rem;
         margin-left: 45rem;
 
     }
@@ -698,9 +707,12 @@ body {
     }
 
     #pitch3 img {
-        width: 40%;
-        margin-top: 2rem;
-        margin-left: 47rem;
+        position: absolute;
+        width: 600px;
+        height: 324px;
+        margin-top: -25.7rem;
+        margin-left: 45rem;
+
     }
 
 
@@ -712,10 +724,12 @@ body {
     }
 
     #pitch5 img {
-        width: 40%;
-        margin-top: 2rem;
-        margin-left: 47rem;
-        padding-bottom: 200px;
+        position: absolute;
+        width: 600px;
+        height: 324px;
+        margin-top: -25.7rem;
+        margin-left: 45rem;
+
     }
 
 }

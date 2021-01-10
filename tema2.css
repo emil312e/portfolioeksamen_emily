@@ -183,9 +183,8 @@ body {
 
     #overskrift h2 {
         text-align: center;
-        padding-top: 60px;
+        margin-top: 3rem;
         font-size: 2.5rem;
-        padding-left: 2px;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
     }
@@ -212,7 +211,7 @@ body {
     }
 
     #grey_box {
-        background-color: #CCC8C8;
+        background-color: #D0D0D0;
         height: 350px;
         min-width: 200px;
         margin-top: 3rem;
@@ -222,11 +221,10 @@ body {
 
     #tekst h3 {
         text-align: left;
-        margin-top: -19rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-top: -20rem;
+        margin-left: 1.5rem;
+        margin-right: 0.7rem;
         font-size: 1.6rem;
-        padding-left: 2px;
         font-family: 'Darker Grotesque', sans-serif;
         color: white;
     }
@@ -248,8 +246,12 @@ body {
         width: 95%;
         padding-top: 28px;
         margin-left: 0.7rem;
+        opacity: 1.0;
     }
 
+    .newyork img:hover {
+        opacity: 0.5;
+    }
 
 
     #skitser img {
@@ -465,19 +467,20 @@ body {
     }
 
     #opgave h2 {
+        position: absolute;
         text-align: center;
         margin-top: -35rem;
         font-size: 3.5rem;
-        margin-left: 35rem;
+        margin-left: 55rem;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
     }
 
     #grey_box {
-        background-color: #CCC8C8;
+        background-color: #D0D0D0;
         height: 522px;
         width: 400px;
-        margin-top: -2.2rem;
+        margin-top: -33rem;
         margin-left: 62rem;
 
     }
@@ -546,6 +549,11 @@ body {
         width: 65%;
         padding-top: 28px;
         margin-left: 2rem;
+        opacity: 1.0;
+    }
+
+    .newyork img:hover {
+        opacity: 0.5;
     }
 
     #skitser img {

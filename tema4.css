@@ -205,8 +205,8 @@ body {
 
     #tekst h3 {
         text-align: left;
-        padding-top: 50px;
         font-size: 1.2rem;
+        margin-top: 3rem;
         margin-left: 1.5rem;
         margin-right: 1rem;
         font-family: 'Darker Grotesque', sans-serif;
@@ -251,6 +251,42 @@ body {
         padding-left: 50px;
     }
 
+    #designdokumentation6 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    #designdokumentation7 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    #designdokumentation8 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    #designdokumentation9 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    #designdokumentation10 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    #designdokumentation11 img {
+        width: 80%;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
 
     #link_assetliste h3 {
         text-align: center;
@@ -280,9 +316,9 @@ body {
 
     #grey_box {
         background-color: #D0D0D0;
-        height: 280px;
+        height: 317px;
         min-width: 200px;
-        margin-top: -15rem;
+        margin-top: -19rem;
 
     }
 }
@@ -456,7 +492,8 @@ body {
 
     #assetliste h2 {
         text-align: left;
-        margin-top: -8rem;
+        position: absolute;
+        margin-top: -20rem;
         font-size: 3rem;
         margin-left: 2rem;
         font-family: 'Bebas Neue', cursive;
@@ -464,11 +501,13 @@ body {
     }
 
     #link_assetliste h3 {
+        position: absolute;
         margin-left: 10rem;
+        margin-top: -18rem;
         font-size: 2rem;
         font-family: 'Darker Grotesque', sans-serif;
         color: black;
-        padding-bottom: 30px;
+
     }
 
 
@@ -484,7 +523,7 @@ body {
 
     #designdokumentation h2 {
         text-align: left;
-        margin-top: 10rem;
+        margin-top: -7rem;
         margin-left: 2rem;
         font-size: 2.5rem;
         font-family: 'Bebas Neue', cursive;
@@ -494,43 +533,85 @@ body {
     /*billeder*/
 
     #figurdesign img {
-        width: 45%;
-        margin-top: -14rem;
-        padding-left: 720px;
+        position: absolute;
+        width: 660px;
+        height: 400px;
+        margin-top: -42.5rem;
+        margin-left: 47rem;
 
     }
 
     #designdokumentation img {
         width: 40%;
-        padding-top: 40px;
+        margin-top: 10rem;
         padding-left: 35px;
     }
 
     #designdokumentation2 img {
         width: 40%;
-        margin-top: -110rem;
-        margin-left: 43.5rem;
+        margin-left: 48rem;
+        margin-top: -23.6rem;
+
     }
+
 
     #designdokumentation3 img {
         width: 40%;
-        padding-top: 25px;
-        padding-left: 32px;
+        margin-left: 2.2rem;
+        margin-top: 1rem;
     }
 
     #designdokumentation4 img {
+        position: absolute;
         width: 40%;
-        margin-top: -85rem;
-        margin-left: 45rem;
-
+        margin-left: 48rem;
+        margin-top: -38rem;
     }
 
     #designdokumentation5 img {
         width: 40%;
-        padding-top: 25px;
-        margin-left: 5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
 
+    #designdokumentation6 img {
+        position: absolute;
+        width: 40%;
+        margin-left: 48rem;
+        margin-top: -43rem;
+    }
+
+    #designdokumentation7 img {
+        width: 40%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    #designdokumentation8 img {
+        position: absolute;
+        width: 40%;
+        margin-left: 48rem;
+        margin-top: -43rem;
+    }
+
+    #designdokumentation9 img {
+        width: 40%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    #designdokumentation10 img {
+        position: absolute;
+        width: 40%;
+        margin-left: 48rem;
+        margin-top: -46.7rem;
+    }
+
+    #designdokumentation11 img {
+        width: 40%;
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
 
     #spil h2 {
         text-align: left;
@@ -551,5 +632,12 @@ body {
         font-family: 'Darker Grotesque', sans-serif;
     }
 
+    #grey_box {
+        background-color: #D0D0D0;
+        height: 200px;
+        min-width: 200px;
+        margin-top: 10rem;
+
+    }
 
 }
