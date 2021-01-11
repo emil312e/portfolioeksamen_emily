@@ -142,27 +142,31 @@ body {
     footer h3 {
         font-size: 17px;
         margin-left: 1rem;
-        padding-top: 15px;
+        margin-top: 1rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
     }
+
+
+
+
 
     footer h4 {
         font-size: 17px;
-        margin-top: -3.4rem;
-        float: right;
-        margin-right: 1.8rem;
+        margin-top: -3.5rem;
+        margin-left: 18rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
 
     }
+
 
     .facebook h1 {
         width: 2.9rem;
         height: 2.9rem;
         float: right;
-        margin-right: 2.4rem;
-        margin-top: -1.8rem;
+        margin-right: 1.4rem;
+        margin-top: 0.2rem;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -173,7 +177,7 @@ body {
         height: 2.9rem;
         float: right;
         margin-right: -2.5rem;
-        margin-top: -0.2rem;
+        margin-top: 1.7em;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -248,7 +252,7 @@ body {
         color: #ED5242;
     }
 
-    #link_redesign h2 {
+    .link_redesign h2 {
         text-align: center;
         padding-top: 40px;
         font-size: 2.5rem;
@@ -494,7 +498,7 @@ body {
     #pilotprojekt h2 {
         text-align: right;
         margin-top: -38rem;
-        margin-right: 15rem;
+        margin-right: 7.6rem;
         font-size: 3.5rem;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
@@ -504,7 +508,7 @@ body {
         text-align: right;
         padding-top: 17px;
         font-size: 2.5rem;
-        margin-right: 13.5rem;
+        margin-right: 6.1rem;
         font-family: 'Darker Grotesque', sans-serif;
         color: black;
         padding-bottom: 30px;
@@ -522,7 +526,7 @@ body {
     #galleri h2 {
         text-align: right;
         padding-top: 20px;
-        margin-right: 22rem;
+        margin-right: 14.4rem;
         font-size: 3.5rem;
         font-family: 'Bebas Neue', cursive;
         color: #ED5242;
@@ -533,7 +537,7 @@ body {
         text-align: right;
         padding-top: 5px;
         font-size: 2.5rem;
-        margin-right: 18.9rem;
+        margin-right: 11.2rem;
         font-family: 'Darker Grotesque', sans-serif;
         color: black;
         padding-bottom: 30px;
@@ -579,7 +583,7 @@ body {
         margin-left: 50rem;
     }
 
-    #link_redesign h2 {
+    .link_redesign h2 {
         text-align: left;
         padding-top: 40px;
         font-size: 3.5rem;

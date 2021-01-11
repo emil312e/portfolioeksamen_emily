@@ -144,27 +144,31 @@ body {
     footer h3 {
         font-size: 17px;
         margin-left: 1rem;
-        padding-top: 15px;
+        margin-top: 1rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
     }
+
+
+
+
 
     footer h4 {
         font-size: 17px;
-        margin-top: -3.4rem;
-        float: right;
-        margin-right: 1.8rem;
+        margin-top: -3.5rem;
+        margin-left: 18rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
 
     }
+
 
     .facebook h1 {
         width: 2.9rem;
         height: 2.9rem;
         float: right;
-        margin-right: 2.4rem;
-        margin-top: -1.8rem;
+        margin-right: 1.4rem;
+        margin-top: 0.2rem;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -175,7 +179,7 @@ body {
         height: 2.9rem;
         float: right;
         margin-right: -2.5rem;
-        margin-top: -0.2rem;
+        margin-top: 1.7em;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -224,67 +228,67 @@ body {
     #designdokumentation img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation2 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation3 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation4 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation5 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation6 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation7 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation8 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation9 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation10 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
     #designdokumentation11 img {
         width: 80%;
         padding-top: 25px;
-        padding-left: 50px;
+        margin-left: 2.4rem;
     }
 
 

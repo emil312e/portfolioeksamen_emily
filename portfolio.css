@@ -144,16 +144,15 @@ body {
     footer h3 {
         font-size: 17px;
         margin-left: 1rem;
-        padding-top: 15px;
+        margin-top: 1rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
     }
 
     footer h4 {
         font-size: 17px;
-        margin-top: -3.4rem;
-        float: right;
-        margin-right: 1.8rem;
+        margin-top: -3.5rem;
+        margin-left: 18rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
 
@@ -163,8 +162,8 @@ body {
         width: 2.9rem;
         height: 2.9rem;
         float: right;
-        margin-right: 2.4rem;
-        margin-top: -1.8rem;
+        margin-right: 1.4rem;
+        margin-top: 0.2rem;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -175,7 +174,7 @@ body {
         height: 2.9rem;
         float: right;
         margin-right: -2.5rem;
-        margin-top: -0.2rem;
+        margin-top: 1.7em;
         font-family: 'Bebas Neue', cursive;
         font-size: 18px;
         color: #ED5242;
@@ -183,7 +182,7 @@ body {
 
 
 
-    #portfolio h1 {
+    #overskrift2 h1 {
         text-align: center;
         position: absolute;
         margin-top: -5.5rem;
@@ -437,7 +436,7 @@ body {
     }
 
 
-    #portfolio h1 {
+    #overskrift2 h1 {
         position: absolute;
         margin-top: -11.5rem;
         margin-left: 36rem;
