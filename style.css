@@ -26,16 +26,7 @@ body {
 /*mobil*/
 @media (max-width: 650px) {
 
-    /*
-    #page-container {
-        position: relative;
-        min-height: 100vh;
-    }
-    #content-wrap {
-        padding-bottom: 1rem;
-         Footer height
-    }
-*/
+
     header {
         background-color: #F4C425;
 
@@ -113,6 +104,56 @@ body {
 
 
 
+
+    /*welcome tekst*/
+
+    .welcome h2 {
+        position: absolute;
+        padding-top: 145px;
+        font-size: 3rem;
+        padding-left: 20px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    .welcome h3 {
+        position: absolute;
+        padding-top: 170px;
+        font-size: 3rem;
+        padding-left: 40px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    /*billeder*/
+
+    .greta img {
+        width: 75%;
+        height: 10%;
+        padding-top: 90px;
+        padding-left: 60px;
+    }
+
+
+
+    .kvinde img {
+        position: relative;
+        width: 50%;
+        padding-left: 156px;
+        margin-top: 2rem;
+
+    }
+
+    .cykler img {
+        width: 60%;
+        padding-top: 2rem;
+        padding-left: 118px;
+        padding-bottom: 10px;
+
+
+
+    }
+
     /*footer*/
 
 
@@ -185,54 +226,6 @@ body {
         color: #ED5242;
     }
 
-    /*welcome tekst*/
-
-    .welcome h2 {
-        position: absolute;
-        padding-top: 145px;
-        font-size: 3rem;
-        padding-left: 20px;
-        font-family: 'Bebas Neue', cursive;
-        color: #ED5242;
-    }
-
-    .welcome h3 {
-        position: absolute;
-        padding-top: 170px;
-        font-size: 3rem;
-        padding-left: 40px;
-        font-family: 'Bebas Neue', cursive;
-        color: #ED5242;
-    }
-
-    /*billeder*/
-
-    .greta img {
-        width: 75%;
-        height: 10%;
-        padding-top: 90px;
-        padding-left: 60px;
-    }
-
-
-
-    .kvinde img {
-        position: relative;
-        width: 50%;
-        padding-left: 156px;
-        margin-top: 2rem;
-
-    }
-
-    .cykler img {
-        width: 60%;
-        padding-top: 2rem;
-        padding-left: 118px;
-        padding-bottom: 10px;
-
-
-
-    }
 
 }
 
@@ -308,6 +301,56 @@ body {
         color: #ED5242;
     }
 
+
+
+    /*welcome tekst*/
+
+    .welcome h2 {
+        position: absolute;
+        padding-top: 60px;
+        font-size: 5rem;
+        padding-left: 55px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    .welcome h3 {
+        position: absolute;
+        padding-top: 108px;
+        font-size: 5rem;
+        padding-left: 165px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+
+    }
+
+    /*billeder*/
+
+    .greta img {
+        width: 35%;
+        height: 10%;
+        padding-top: 150px;
+        float: left;
+        margin-left: 200px;
+
+
+    }
+
+    .kvinde img {
+        width: 20%;
+        float: right;
+        margin-right: 350px;
+        padding-top: 150px;
+
+    }
+
+    .cykler img {
+        position: relative;
+        width: 25%;
+        padding-left: 220px;
+        padding-bottom: 100px;
+    }
+
     /*footer*/
     footer p {
         line-height: 1;
@@ -370,57 +413,5 @@ body {
         font-family: 'Bebas Neue', cursive;
         font-size: 21px;
         color: #ED5242;
-    }
-
-    /*welcome tekst*/
-
-    .welcome h2 {
-        position: absolute;
-        padding-top: 60px;
-        font-size: 5rem;
-        padding-left: 55px;
-        font-family: 'Bebas Neue', cursive;
-        color: #ED5242;
-    }
-
-    .welcome h3 {
-        position: absolute;
-        padding-top: 108px;
-        font-size: 5rem;
-        padding-left: 165px;
-        font-family: 'Bebas Neue', cursive;
-        color: #ED5242;
-
-    }
-
-    /*billeder*/
-
-    .greta img {
-        width: 35%;
-        height: 10%;
-        padding-top: 150px;
-        float: left;
-        margin-left: 200px;
-
-
-    }
-
-    .kvinde img {
-        width: 20%;
-        float: right;
-        margin-right: 350px;
-        padding-top: 150px;
-
-    }
-
-    .cykler img {
-        position: relative;
-        width: 25%;
-        padding-left: 220px;
-        padding-bottom: 100px;
-
-
-
-
     }
 }
