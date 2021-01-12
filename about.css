@@ -125,7 +125,6 @@ body {
         margin-right: 1rem;
         font-family: 'Darker Grotesque', sans-serif;
         color: black;
-
     }
 
 }
@@ -181,7 +180,6 @@ footer {
     text-align: left;
     padding: .50rem;
     height: 25vw;
-
 }
 
 
@@ -268,8 +266,6 @@ footer h4 {
 
 
 
-
-
     nav {
         display: block;
         text-align: right;
@@ -286,8 +282,6 @@ footer h4 {
         color: white;
         font-size: 24px;
         font-family: 'Bebas Neue', cursive;
-
-
     }
 
     p {
@@ -306,69 +300,6 @@ footer h4 {
         color: #ED5242;
     }
 
-    /*footer*/
-    footer p {
-        line-height: 1;
-    }
-
-
-
-    footer {
-        width: 100vw;
-        background-color: #F4C425;
-        color: black;
-        text-align: left;
-        padding: .40rem;
-        height: 10vw;
-    }
-
-    footer h2 {
-        font-size: 20px;
-        margin-left: 2rem;
-        margin-top: 1.5rem;
-        font-family: 'Bebas Neue', cursive;
-        color: #ED5242;
-    }
-
-    footer h3 {
-        font-size: 20px;
-        margin-left: 2rem;
-        padding-top: 15px;
-        font-family: 'Bebas Neue', cursive;
-        color: white;
-    }
-
-    footer h4 {
-        font-size: 20px;
-        margin-top: -3.9rem;
-        float: right;
-        margin-right: 1.8rem;
-        font-family: 'Bebas Neue', cursive;
-        color: white;
-
-    }
-
-    .facebook h1 {
-        width: 2.9rem;
-        height: 2.9rem;
-        float: right;
-        margin-right: 3rem;
-        margin-top: -2.1rem;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 21px;
-        color: #ED5242;
-    }
-
-    .instagram h1 {
-        width: 2.9rem;
-        height: 2.9rem;
-        float: right;
-        margin-right: -2.4rem;
-        margin-top: -0.2rem;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 21px;
-        color: #ED5242;
-    }
 
 
     #overskrift h2 {
@@ -419,6 +350,69 @@ footer h4 {
         background-color: #F2ECE2;
         opacity: 0.4;
         padding-bottom: 100px;
+    }
+
+    /*footer*/
+    footer p {
+        line-height: 1;
+    }
+
+
+
+    footer {
+        width: 100vw;
+        background-color: #F4C425;
+        color: black;
+        text-align: left;
+        padding: .40rem;
+        height: 10vw;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        font-family: 'Bebas Neue', cursive;
+        color: #ED5242;
+    }
+
+    footer h3 {
+        font-size: 20px;
+        margin-left: 2rem;
+        padding-top: 15px;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    footer h4 {
+        font-size: 20px;
+        margin-top: -3.9rem;
+        float: right;
+        margin-right: 1.8rem;
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+    }
+
+    .facebook h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: 3rem;
+        margin-top: -2.1rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
+    }
+
+    .instagram h1 {
+        width: 2.9rem;
+        height: 2.9rem;
+        float: right;
+        margin-right: -2.4rem;
+        margin-top: -0.2rem;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        color: #ED5242;
     }
 
 }

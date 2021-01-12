@@ -271,7 +271,6 @@ body {
         margin-left: 18rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
-
     }
 
 
@@ -332,9 +331,6 @@ body {
     }
 
 
-
-
-
     nav {
         display: block;
         text-align: right;
@@ -351,8 +347,6 @@ body {
         color: white;
         font-size: 24px;
         font-family: 'Bebas Neue', cursive;
-
-
     }
 
     p {
@@ -407,7 +401,6 @@ body {
         width: 400px;
         margin-top: -33rem;
         margin-left: 62rem;
-
     }
 
     #tekst h3 {

@@ -26,16 +26,7 @@ body {
 /*mobil*/
 @media (max-width: 650px) {
 
-    /*
-    #page-container {
-        position: relative;
-        min-height: 100vh;
-    }
-    #content-wrap {
-        padding-bottom: 1rem;
-         Footer height
-    }
-*/
+
     header {
         background-color: #F4C425;
 
@@ -305,8 +296,6 @@ footer h4 {
         color: white;
         font-family: 'Bebas Neue', cursive;
     }
-
-
 
 
 

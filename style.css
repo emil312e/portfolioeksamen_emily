@@ -61,8 +61,6 @@ body {
     }
 
 
-
-
     nav a {
         line-height: 0.2rem;
         display: block;
@@ -168,9 +166,7 @@ body {
         text-align: left;
         padding: .50rem;
         height: 25vw;
-
     }
-
 
 
 
@@ -192,15 +188,12 @@ body {
 
 
 
-
-
     footer h4 {
         font-size: 17px;
         margin-top: -3.5rem;
         margin-left: 18rem;
         font-family: 'Bebas Neue', cursive;
         color: white;
-
     }
 
 
@@ -263,14 +256,10 @@ body {
 
 
 
-
-
     nav {
         display: block;
         text-align: right;
         margin-right: 30px;
-
-
     }
 
     nav a {
@@ -281,8 +270,6 @@ body {
         color: white;
         font-size: 24px;
         font-family: 'Bebas Neue', cursive;
-
-
     }
 
     p {
